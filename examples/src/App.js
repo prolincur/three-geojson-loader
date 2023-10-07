@@ -20,7 +20,7 @@ function App() {
     const bbox = box.setFromObject(json)
     const res = new THREE.Vector3()
     bbox.getCenter(res)
-    setCameraPos([res.x, res.y, 200])
+    setCameraPos([res.x, res.y, 100])
   }, [])
 
   return (

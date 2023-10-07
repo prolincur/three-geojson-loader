@@ -9111,9 +9111,10 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-"three-geojson-loader@link:./three-geojson-loader":
-  version "0.0.0"
-  uid ""
+three-geojson-loader@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/three-geojson-loader/-/three-geojson-loader-1.0.0.tgz#a614b0d207762d64143a240f00220f1efabe7497"
+  integrity sha512-tAq1ZpA7qeEA7gr6JPVFujeBWxnykgBk86z9QTZVQ5nb/3OevZNMoVPURUtoynZf/IZeRaYoN6y0HyWYt6at6w==
 
 three-mesh-bvh@^0.6.7:
   version "0.6.7"
