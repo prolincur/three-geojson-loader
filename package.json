@@ -1,0 +1,54 @@
+{
+  "name": "three-geojson-loader",
+  "version": "1.0.0",
+  "description": "Cross platform GeoJSON loader for three.js. Out of the box usable with react-three-fibre.",
+  "module": "src/main.js",
+  "main": "dist/app.js",
+  "exports": {
+    ".": {
+      "import": "./dist/app.js"
+    }
+  },
+  "files": [
+    "dist/*"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prolincur/three-geojson-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/prolincur/three-geojson-loader/issues"
+  },
+  "homepage": "https://github.com/prolincur/three-geojson-loader",
+  "author": "Prolincur Technologies <https://www.prolincur.com>",
+  "license": "MIT",
+  "keywords": [
+    "geojson",
+    "gis",
+    "threejs",
+    "react-three-fiber",
+    "r3f",
+    "three",
+    "loader",
+    "importer"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "yarn install && yarn build && cd examples && yarn install && yarn start",
+    "prettier": "prettier src/*.js --write"
+  },
+  "peerDependencies": {
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "vite": "^4.4.5",
+    "vite-plugin-banner": "^0.7.1",
+    "vite-plugin-css-injected-by-js": "^3.3.0",
+    "vite-plugin-dts": "^3.6.0"
+  }
+}

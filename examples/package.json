@@ -1,0 +1,44 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@react-three/drei": "^9.86.3",
+    "@react-three/fiber": "^8.14.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/three": "^0.156.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "^0.157.0",
+    "three-geojson-loader": "link:./three-geojson-loader",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "prettier": "prettier src/*.{js,jsx} --write"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
